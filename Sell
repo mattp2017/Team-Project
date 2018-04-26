@@ -4,17 +4,12 @@
 
 	<head>
 		<meta charset=utf-8>
-		<title> </title>
+		<title>Sell Your Truck </title>
 	</head>
-  <style>
-		*{
-			border:0;
-			margin:0;
-			padding:0;
-			outline:0;
-		}
+    <style>
+		
 		body{
-			background:white;
+			background:;
 			font-family:sans-serif;
 			font-size:17px;
 			font-weight:bold;
@@ -45,9 +40,20 @@
 		.nav .left a:hover{
 			background:#99ccff;
 		}
+        #main{
+            margin-left: 40%;
+            background:#F0F0F0; 
+            width:30%;
+        }
+
+        .box{
+            float:right;
+            margin-right: 15%;
+            
+        }
 	</style>
-	<body>
-			<nav class="nav">
+    <body>
+        <nav class="nav">
 				<div class="nav-mobile">
 				<ul class="left">
 					<li><a href="#"><img src="tS_compass_cmyk_500px.pdf" alt="TruckSeekers" height="100" width="100"></a></li>
@@ -55,58 +61,63 @@
 					<li><a href="#">Sell Your Truck</a></li>
 					<li><a href="#">Servicing</a></li>
 				</ul>
+            
 			<form class="search-form">
 				<input type="text" placeholder="Search"> 
 				<button>Search</button>
-				</form>
-				</div>
-			</nav>
-			<h1>Sell Your Truck</h1>
-        <div>
+                    </form>
+                    </div>
+            
+        
+        </nav>
+        
+        <div id="main">
+            <h1>Sell Your Truck</h1>
+            <div id="mainContents">
             
             <form>
                 <h2>Seller Info</h2>
-                
-                First name:<br>
-                <input type="text" name="firstname"><br>
-                Last name:<br>
-                <input type="text" name="lastname"><br>
-                Phone Number:<br>
-                <input type="text" name="phone"><br>
-                Address:<br>
-                <input type="text" name = "address"><br>
-                City:<br>
-                <input type="text" name = "city"><br>
-                State:<br>
-                <input type="text" name = "state"><br>
-                Zip:<br>
-                <input type="text" name = "address"><br>
-                Email:<br>
-                <input type="text" name="email"><br>
-                <input type= "submit" value ="Submit">
+
+                First Name:
+                <input class="box" type="text" name="firstname="><br>
+                Last name:
+                <input class="box"type="text" name="lastname"><br>
+                Phone Number:
+                <input class="box"type="text" name="phone"><br>
+                Address:
+                <input class="box" type="text" name = "address"><br>
+                City:
+                <input class="box"type="text" name = "city"><br>
+                State:
+                <input class="box"type="text" name = "state"><br>
+                Zip:
+                <input class="box"type="text" name = "address"><br>
+                Email:
+                <input class="box"type="text" name="email"><br>
+                <input class="box"type= "submit" value ="Submit">
             </form>
             
         </div>
         <div>
             <form>
                 <h2>Truck Info</h2>
-                Condition:<br>
-                <input type="text" name= "condition"><br>
-                Body Type:<br>
-                <input type= "text" name= "type"><br>
-                Brand:<br>
-                <input type= "text" name= "brand"><br>
-                Model:<br>
-                <input type= "text" name= "model"><br>
-                Year:<br>
-                <input type= "text" name= "year"><br>
-                Mileage:<br>
-                <input type= "text" name= "mileage"><br>
-                Transmission:<br>
-                <input type= "text" name= "transmission"><br>
-                Color:<br>
-                <input type= "text" name= "color"><br>
-                <input type= "submit" value ="Submit">
+                Condition:
+                <input class="box"type="text" name= "condition"><br>
+                Body Type:
+                <input class="box"type= "text" name= "type"><br>
+                Brand:
+                <input class="box"type= "text" name= "brand"><br>
+                Model:
+                <input class="box"type= "text" name= "model"><br>
+                Year:
+                <input class="box"type= "text" name= "year"><br>
+                Mileage:
+                <input class="box"type= "text" name= "mileage"><br>
+                Transmission:
+                <input class="box"type= "text" name= "transmission"><br>
+                Color:
+                <input class="box"type= "text" name= "color"><br>
+                <input class="box"type= "submit" value ="Submit">
                 
             </form>
         </div>
@@ -118,5 +129,6 @@
     <br><input type="submit" value="Upload Image" name="submit">
             </form>
         </div>
-  	</body>
+        </div>
+    </body>
 </html>
