@@ -58,6 +58,8 @@
 			<form class="search-form">
 				<input type="text" placeholder="Search"> 
 				<button>Search</button>
+				</form>
+				</div>
 			</nav>
 			<h1>Sell Your Truck</h1>
         <div>
