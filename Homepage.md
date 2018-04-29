@@ -123,23 +123,23 @@
                 <div class="mySlides">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <div class="numbertext">1 / 3</div>
+                    <div class="#">1 / 3</div>
                     <img src="BoJackson.jpeg" style="width:100%">
-                    <div class="text">Bo</div>
+                    <div class="text">#</div>
                 </div>
                 <div class="mySlides">
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     <div class="numbertext">2 / 3</div>
-                    <img src="BoJacksonAuburn.jpg" style="width:100%">
-                    <div class="text">Auburn</div>
+                    <img src="#" style="width:100%">
+                    <div class="text">#</div>
                 </div>
                 <div class="mySlides">
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         <div class="numbertext">3 / 3</div>
-                        <img src="BoJacksonKansas.jpg" style="width:100%">
-                        <div class="text">Kansas</div>
+                        <img src="#" style="width:100%">
+                        <div class="text">#</div>
                 </div>
             </div>
             <br>
