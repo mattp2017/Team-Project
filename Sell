@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang=en>
 
 	<head>
@@ -41,14 +39,14 @@
 			background:#99ccff;
 		}
         #main{
-            margin-left: 40%;
+            margin-left: 35%;
             background:#F0F0F0; 
             width:30%;
         }
 
         .box{
             float:right;
-            margin-right: 15%;
+            margin-right: 20%;
             
         }
 	</style>
